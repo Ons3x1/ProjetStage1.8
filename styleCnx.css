@@ -1,0 +1,74 @@
+body{
+    background:     rgba(37, 37, 37, 0.671);
+   }
+   #container{
+    width:400px;
+    margin:0 auto;
+    margin-top:6%;
+   }
+   /* Bordered form */
+   form {
+    width:100%;
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 3, 1, 0.219), 0 5px 5px 0 rgba(0, 3, 1, 0.214);
+   }
+   #container h1{
+    width: 38%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+   }
+   
+   /* Full-width inputs */
+   input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(156,192,249);
+    
+    box-sizing: border-box;
+   }
+   #tags{color: rgb(156,192,249);
+   
+    }
+
+    #Ef{margin-top: -8.5vh;
+       margin-left: 12vh;
+       color: rgb(62, 62, 192);
+       
+       
+       
+    }
+
+::placeholder{color:rgba(104, 103, 103, 0.538) ;}
+
+   .tags{
+    color: rgb(69, 69, 69);
+     }
+
+   /* Set a style for all buttons */
+   input[type=submit] {
+    background-color: rgb(156,192,249);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100%;
+   }
+   input[type=submit]:hover {
+    background-color: white;
+    color: rgb(156,192,249);
+    border: 1px solid rgb(156,192,249);
+    border-radius: 20px;
+   }
+
+   #img{
+    margin-left: 0vh;
+    margin-top: 0vh;
+    border-radius: 10px;
+   }
